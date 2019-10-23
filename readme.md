@@ -1,4 +1,4 @@
-# @unfoldingWord/babel-preset
+# @unfoldingword/babel-preset
 
 > Babel preset for unfoldingWord apps.
 
