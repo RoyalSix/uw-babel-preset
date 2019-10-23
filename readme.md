@@ -28,3 +28,15 @@ add to babel config:
   ],
   ...
 ```
+
+
+After Publishing:
+
+```js
+...
+  "extends": [
+    ...
+    "@unfoldingWord/babel-preset"
+  ],
+  ...
+```
