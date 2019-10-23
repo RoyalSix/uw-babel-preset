@@ -1,42 +1,30 @@
 # @unfoldingWord/babel-preset
 
-> Babel preset for all unfoldingWord apps.
+> Babel preset for unfoldingWord apps.
 
 ## Install
 
 Using npm:
 
 ```sh
-npm install git+https://git@github.com/RoyalSix/uw-babel-preset.git --save-dev
+npm install @unfoldingword/eslint-config --save-dev
 ```
 
 or using yarn:
 
 ```sh
-yarn add git+https://git@github.com/RoyalSix/uw-babel-preset.git --dev
+yarn add @unfoldingword/eslint-config --dev
 ```
 
 ## Setup
 
-add to babel config:
+add to eslint config:
 
 ```js
 ...
   "extends": [
     ...
-    "./node_modules/@unfoldingWord/babel-preset/index.js"
-  ],
-  ...
-```
-
-
-After Publishing:
-
-```js
-...
-  "extends": [
-    ...
-    "@unfoldingWord/babel-preset"
+    "@unfoldingword"
   ],
   ...
 ```

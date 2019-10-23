@@ -88,6 +88,11 @@ module.exports = {
       "createClass": "createReactClass", // Regex for Component Factory to use, default to "createReactClass"
       "pragma": "React",  // Pragma to use, default to "React"
       "version": "detect" // React version, default to the latest React stable release
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
     }
   }
 }
