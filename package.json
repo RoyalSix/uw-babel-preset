@@ -14,7 +14,7 @@
   ],
   "main": "index.js",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "eslint-config-prettier": "^6.4.0",
     "eslint-config-recommended": "^4.0.0",
     "eslint-plugin-import": "^2.18.2",
