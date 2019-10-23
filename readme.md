@@ -7,11 +7,24 @@
 Using npm:
 
 ```sh
-npm install --save-dev @unfoldingWord/babel-preset
+npm install git+https://git@github.com/RoyalSix/uw-babel-preset.git --save-dev
 ```
 
 or using yarn:
 
 ```sh
-yarn add @unfoldingWord/babel-preset --dev
+yarn add git+https://git@github.com/RoyalSix/uw-babel-preset.git --dev
+```
+
+## Setup
+
+add to babel config:
+
+```js
+...
+  "extends": [
+    ...
+    "./node_modules/@unfoldingWord/babel-preset/index.js"
+  ],
+  ...
 ```
