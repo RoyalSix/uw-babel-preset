@@ -1,6 +1,6 @@
 {
   "name": "@unfoldingword/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "ESLint and Prettier Config For UnfoldingWord",
   "keywords": [
     "javascript",
@@ -24,8 +24,7 @@
     "eslint-plugin-react-hooks": "2.0.1",
     "prettier": "^1.18.2"
   },
-  "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix"
+  "peerDependencies": {
+    "eslint": ">= 6.X.X"
   }
 }
