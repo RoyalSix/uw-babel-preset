@@ -1,6 +1,6 @@
-# @unfoldingWord/babel-preset
+# @unfoldingword/eslint-config
 
-> Babel preset for unfoldingWord apps.
+> Eslint Configuration for unfoldingWord apps.
 
 ## Install
 
