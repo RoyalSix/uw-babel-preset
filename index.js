@@ -31,7 +31,13 @@ module.exports = {
     "test-selectors"
   ],
   "rules": {
+    "test-selectors/onClick": ["warn", "always", { "testAttribute": "data-test" }],
     "test-selectors/onChange": ["warn", "always", { "testAttribute": "data-test" }],
+    "test-selectors/anchor": "off",
+    "test-selectors/button": ["warn", "always", { "testAttribute": "data-test" }],
+    "test-selectors/input": ["warn", "always", { "testAttribute": "data-test" }],
+    "test-selectors/onKeyDown": ["warn", "always", { "testAttribute": "data-test" }],
+    "test-selectors/onKeyUp": "off",
     "array-callback-return": "error",
     "no-await-in-loop": "error",
     "object-curly-newline": ["error", {"multiline": true, "minProperties": 3}],
