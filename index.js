@@ -5,7 +5,8 @@ module.exports = {
     "plugin:import/errors",
     "plugin:import/warnings",
     "prettier",
-    "prettier/react"
+    "prettier/react",
+    "plugin:test-selectors/recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
@@ -26,9 +27,11 @@ module.exports = {
     "jest",
     "prettier",
     "import",
-    "react-hooks"
+    "react-hooks",
+    "test-selectors"
   ],
   "rules": {
+    "test-selectors/onChange": ["warn", "always", { "testAttribute": "data-test" }],
     "array-callback-return": "error",
     "no-await-in-loop": "error",
     "object-curly-newline": ["error", {"multiline": true, "minProperties": 3}],

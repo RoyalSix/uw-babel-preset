@@ -576,6 +576,14 @@ eslint-plugin-react@^7.19.0, eslint-plugin-react@^7.20.0:
     resolve "^1.17.0"
     string.prototype.matchall "^4.0.2"
 
+eslint-plugin-test-selectors@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-test-selectors/-/eslint-plugin-test-selectors-1.2.8.tgz#c952c46846d22ef9afd6d988c9dfb9499634ca96"
+  integrity sha512-NSWTVaeTEGzukmGj3Mat/cvuFf2fezWoFSHa/uQ/G6G2AZQwtHXOzngXun4b18vXqsZMvpO2wTazJIOd9CdqGg==
+  dependencies:
+    jsx-ast-utils "^2.4.1"
+    requireindex "^1.2.0"
+
 eslint-rule-composer@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/eslint-rule-composer/-/eslint-rule-composer-0.3.0.tgz#79320c927b0c5c0d3d3d2b76c8b4a488f25bbaf9"
@@ -1439,6 +1447,11 @@ regexpp@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.1.0.tgz#206d0ad0a5648cffbdb8ae46438f3dc51c9f78e2"
   integrity sha512-ZOIzd8yVsQQA7j8GCSlPGXwg5PfmA1mrq0JP4nGhh54LaKN3xdai/vHUDu74pKwV8OxseMS65u2NImosQcSD0Q==
+
+requireindex@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
+  integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
 
 resolve-from@^4.0.0:
   version "4.0.0"
