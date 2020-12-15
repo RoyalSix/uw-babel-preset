@@ -16,7 +16,7 @@ or using yarn:
 yarn add @unfoldingword/eslint-config --dev
 ```
 
-## Setup
+## Basic Setup For React Projects
 
 add to eslint config:
 
@@ -25,6 +25,19 @@ add to eslint config:
   "extends": [
     ...
     "@unfoldingword"
+  ],
+  ...
+```
+
+## Non React Project Setup
+
+add to eslint config:
+
+```js
+...
+  "extends": [
+    ...
+    '@unfoldingword/eslint-config/common',
   ],
   ...
 ```
